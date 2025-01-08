@@ -3,11 +3,11 @@
 
 ### GROUP NAME HERE
 
-Group Members Here
-       
+Angela Mashuryan 
+
 ### Project Description:
 
-Explain what is this project.
+A grid-based game.
   
 ### Instructions:
 

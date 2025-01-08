@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <netinet/in.h>
+
 
 void clienthandler(int client_socket){
     char buffer[1024];
@@ -15,4 +17,13 @@ void clienthandler(int client_socket){
         }
         close(client_socket);
     }
+}
+
+int main(){
+    int server_fd, client_socket;
+    struct sockaddr_in address;
+    int addrlen = sizeof(address);
+    
+
+
 }

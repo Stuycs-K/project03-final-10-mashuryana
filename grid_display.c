@@ -28,8 +28,19 @@ int main(){
         perror("socket failed");
         exit(0); 
     }
-    address.sin_family = AF_INET;
-    address.sin_addr.s_addr = INADDR_ANY;
-    address.sin_port = htons(8080);
+    // address.sin_family = AF_INET;
+    // address.sin_addr.s_addr = INADDR_ANY;
+    // address.sin_port = htons(8080);
+
+    if(bind(server_fd, (struct sockaddr *) &address, sizeof(address)) < 0){
+        perror("bind failed");
+        exit(0);
+    }
+    if(listen(server_fd, 2) <0){
+        perror("listen failed");
+        exit(0);
+    }
+    printf("server started on port %d\n", 8080);
+    // while(1){}
 
 }

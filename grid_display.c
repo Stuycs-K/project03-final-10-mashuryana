@@ -41,6 +41,19 @@ int main(){
         exit(0);
     }
     printf("server started on port %d\n", 8080);
-    // while(1){}
+    while(1){
+        client_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t *)&addrlen); // or unsigned int
+        if(client_socket < 0){
+            perror("accept failed");
+        }
+        printf("new player connected\n");
+        if (fork() == 0){
+            close(server_fd);
+            handle_client(client_socket);
+            exit(0);
+        }
+        close(client_socket);
+    }
+    return 0;
 
 }

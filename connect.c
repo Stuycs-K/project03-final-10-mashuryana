@@ -34,6 +34,13 @@ int main(){
         fgets(buffer, 1024, stdin);
         send(sock, buffer, strlen(buffer),0);
         memset(buffer, 0, 1024);
-        int bytes_read;
+        int bytes_read = read (sock, buffer, 1024);
+        if(bytes_read <= 0){
+            break;
+
+            printf("server: %s\n", buffer);
+        }
+        close(sock);
+        return 0;
     }
 }

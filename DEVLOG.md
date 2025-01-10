@@ -2,18 +2,10 @@
 
 This document must be updated daily by EACH group member.
 
-## Player 1
+## Angela
 
-### 2024-01-02 - Brief description
-Expanded description including how much time was spent on task.
+### 2024-01-08 - Updated Proposal and Began Code
+Worked on developing my project ideas and creating a functional plan, including expected dates for completion. Then also began working on the client part of my code and learning about sockets. (2.5 hours).
 
-### 2024-01-03 - Brief description
-Expanded description including how much time was spent on task.
-
-## Player 2
-
-### 2024-01-02 - Brief description
-Expanded description including how much time was spent on task.
-
-### 2024-01-03 - Brief description
-Expanded description including how much time was spent on task.
+### 2024-01-09 - Continued client and socket work
+Included code for opening server and attempting to connect clients. As part of research about sockets, worked with members. (1.5 hours)

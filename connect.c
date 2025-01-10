@@ -23,4 +23,9 @@ int main(){
         perror("invalid addr");
         return -1;
     }
+    if(connect(sock, (struct sockaddr *)&server_address, sizeof(server_address)) <0){
+        perror("connect failed");
+        return -1;
+    }
+    printf("connected to server.")
 }

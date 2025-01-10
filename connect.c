@@ -27,5 +27,13 @@ int main(){
         perror("connect failed");
         return -1;
     }
-    printf("connected to server.")
+    printf("connected to server. type commands now:\n");
+
+    while(1){
+        printf("> ");
+        fgets(buffer, 1024, stdin);
+        send(sock, buffer, strlen(buffer),0);
+        memset(buffer, 0, 1024);
+        int bytes_read;
+    }
 }

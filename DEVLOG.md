@@ -9,3 +9,8 @@ Worked on developing my project ideas and creating a functional plan, including 
 
 ### 2024-01-09 - Continued client and socket work
 Included code for opening server and attempting to connect clients. As part of research about sockets, worked with members. (1.5 hours)
+
+### 2024-01-10 - Further work with sockets
+Continued adding code for socket usage, had issues with connecting, started to think about processing commands. (1.5 hours)
+
+

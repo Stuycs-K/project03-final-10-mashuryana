@@ -4,4 +4,15 @@
 #include <unistd.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-//shared mem n semaphores?
+#include <sys/shm.h>
+#include <sys/ipc.h>
+
+typedef struct{
+    char grid[25];
+} Grid;
+
+void initialize_grid(Grid *grid){
+    for (int i =0; i<25; i++){
+        
+    }
+}

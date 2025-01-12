@@ -13,6 +13,11 @@ typedef struct{
 
 void initialize_grid(Grid *grid){
     for (int i =0; i<25; i++){
-        
+        ///? how to set up
     }
+}
+
+int main(){
+    int shmid;
+    shmid = shmget (//key?????/)
 }

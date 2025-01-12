@@ -13,4 +13,5 @@ Included code for opening server and attempting to connect clients. As part of r
 ### 2024-01-10 - Further work with sockets
 Continued adding code for socket usage, had issues with connecting, started to think about processing commands. (1.5 hours)
 
-
+### 2024-01-11 - Trying to initialize grid
+Had issues attempting to initialize grid but started a new file for displaying it. (1 hour)

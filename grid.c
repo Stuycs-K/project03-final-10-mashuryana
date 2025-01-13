@@ -19,5 +19,10 @@ void initialize_grid(Grid *grid){
 
 int main(){
     int shmid;
-    shmid = shmget (//key?????/)
+    shmid = shmget (12412, sizeof(Grid), 0666 | IPC_CREAT); //0600?
+    if(shmid <0){
+        perror("shmget fail");
+        exit(0);
+    }
+
 }

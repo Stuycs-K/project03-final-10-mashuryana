@@ -24,5 +24,12 @@ int main(){
         perror("shmget fail");
         exit(0);
     }
+    Grid *grid = (Grid *) shmat(shmid, NULL, 0);
+    if(grid == (void *)-1){
+        perror("shmat fail");
+        exit(0);
+    }
+    initialize_grid(grid);
+    printf("")
 
 }

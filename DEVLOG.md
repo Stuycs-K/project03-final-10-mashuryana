@@ -15,3 +15,6 @@ Continued adding code for socket usage, had issues with connecting, started to t
 
 ### 2024-01-11 - Trying to initialize grid
 Had issues attempting to initialize grid but started a new file for displaying it. (1 hour)
+
+### 2024-01-12 - Still initializing plus shared memory
+Continued to think about setting up the grid and started to work on the shared memory aspect (30 mins)

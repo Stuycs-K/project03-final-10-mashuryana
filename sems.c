@@ -8,3 +8,10 @@
 #include <sys/sem.h>
 
 #include <sys/ipc.h>
+
+void lock(int semid){
+    struct sembuf sb;
+    sb.sem_num = 0;
+    sb.sem_op = -1;
+    sb.sem_flg = 0;
+}

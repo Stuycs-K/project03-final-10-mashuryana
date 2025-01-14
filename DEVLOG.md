@@ -18,3 +18,6 @@ Had issues attempting to initialize grid but started a new file for displaying i
 
 ### 2024-01-12 - Still initializing plus shared memory
 Continued to think about setting up the grid and started to work on the shared memory aspect (30 mins)
+
+### 2024-01-13 - Shared memory
+Continued shared memory work but also researched more about it and went back to notes. Worked beyond grid initialization. (1 hour)

@@ -30,6 +30,9 @@ int main(){
         exit(0);
     }
     initialize_grid(grid);
-    printf("")
+    printf("grid initialized.");
+
+    shmdt(grid);
+    return(0);
 
 }

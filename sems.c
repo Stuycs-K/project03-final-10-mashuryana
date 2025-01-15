@@ -27,5 +27,8 @@ void unlock(int semid){
 
 int main(){
     int semid = semget(//KEY, 1, 0666? | IPC_CREAT);
-    semctl(semid, 0 , )
+    semctl(semid, 0 , SETVAL, 1);
+    lock(semid);
+    sleep(2);
+    unlock(semid);
 }

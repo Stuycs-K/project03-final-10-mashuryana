@@ -28,7 +28,10 @@ void unlock(int semid){
 int main(){
     int semid = semget(//KEY, 1, 0666? | IPC_CREAT);
     semctl(semid, 0 , SETVAL, 1);
+    printf("locking semaphore...\n");
     lock(semid);
+    printf("sleeping...\n");
     sleep(2);
+    printf("unlocking semaphore...\n");
     unlock(semid);
 }

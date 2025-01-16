@@ -24,3 +24,6 @@ Continued shared memory work but also researched more about it and went back to 
 
 ### 2024-01-14 - Worked on grid initalization and semaphores
 Continued grid initialization function and began a file for semaphore use (for inventory potentials), and began some code there. (1.5 hours)
+
+### 2024-01-15 - Unlocking resources, grid!
+Worked in semaphores, unlocking and locking and the main function in that file. Grid not setup. (1 hour)

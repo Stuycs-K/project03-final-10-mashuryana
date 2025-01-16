@@ -6,6 +6,8 @@
 #include <arpa/inet.h>
 #include <sys/shm.h>
 #include <sys/ipc.h>
+#include <time.h>
+#include "grid.h";
 
 typedef struct{
     char grid[25];
@@ -13,11 +15,18 @@ typedef struct{
 
 void initialize_grid(Grid *gridNow){
     for (int i =0; i<25; i++){
-       if(i % 2 == 0){
-        gridNow -> grid[i] = 'T';
+        int random = rand() % 100;
+       if(random < 20){
+        gridNow -> grid[i] = 'T'; // trap
+       }
+       else if (random < 30){
+        gridNow -> grid[i] = '$'; //treasure
+       }
+       else if(random < 40){
+        gridNow -> grid[i] = 'M'; // monster
        }
        else{
-        gridNow -> grid[i] = ' ';
+        gridNow -> grid[i] = ' '; // empty
        }
     }
     

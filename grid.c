@@ -11,10 +11,16 @@ typedef struct{
     char grid[25];
 } Grid;
 
-void initialize_grid(Grid *grid){
+void initialize_grid(Grid *gridNow){
     for (int i =0; i<25; i++){
-        grid->grid[i] = 
+       if(i % 2 == 0){
+        gridNow -> grid[i] = 'T';
+       }
+       else{
+        gridNow -> grid[i] = ' ';
+       }
     }
+    
 }
 
 int main(){

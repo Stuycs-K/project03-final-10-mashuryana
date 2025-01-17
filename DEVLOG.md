@@ -27,3 +27,6 @@ Continued grid initialization function and began a file for semaphore use (for i
 
 ### 2024-01-15 - Unlocking resources, grid!
 Worked in semaphores, unlocking and locking and the main function in that file. Grid not setup. (1 hour)
+
+### 2024-01-16 - Grid display!
+Grid display intialized for traps, treasure, monsters, and blank spaces, created an h file for grid. (1.5 hours)

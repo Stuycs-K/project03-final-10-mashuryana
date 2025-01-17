@@ -32,6 +32,25 @@ void initialize_grid(Grid *gridNow){
     
 }
 
+void save_grid(Grid *gridNow, const char *filename){
+    FILE *file = fopen(filename, "wb");
+    if (!file){
+        perror("error saving grid");
+        return;
+    }
+    fwrite(gridNow, sizeof(Grid), 1, file);
+    fclose(file);
+}
+
+void load_grid(Grid *gridNow, const char *filename){
+    FILE *file = fopen(filename, "rb");
+    if(!file){
+        perror("error laoding grid");
+        return;
+    }
+    fread(gridNow, sizeof(Grid), 1 , file);
+    fclose(file);
+}
 int main(){
     int shmid;
     shmid = shmget (12412, sizeof(Grid), 0666 | IPC_CREAT); //0600?

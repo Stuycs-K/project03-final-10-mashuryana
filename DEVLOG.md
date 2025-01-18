@@ -30,3 +30,6 @@ Worked in semaphores, unlocking and locking and the main function in that file. 
 
 ### 2024-01-16 - Grid display!
 Grid display intialized for traps, treasure, monsters, and blank spaces, created an h file for grid. (1.5 hours)
+
+### 2024-01-17 - Saving, loading, h file
+Worked with files to handle game state saving (save and load functions), updated grid's h file and renamed another file (1.5 hours)

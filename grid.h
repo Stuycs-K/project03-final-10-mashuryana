@@ -10,7 +10,7 @@ typedef struct{
     int game_over;
 } Grid;
 
-void initialize_grid(Grid *gridNow);
+void initialize_grid(Grid *grid);
 void display_grid(Grid *grid);
 void save_grid(Grid *grid, const char *filename);
 void load_grid(Grid *grid, const char *filename);

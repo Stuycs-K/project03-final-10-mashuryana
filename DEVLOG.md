@@ -36,3 +36,6 @@ Worked with files to handle game state saving (save and load functions), updated
 
 ### 2024-01-18 - Grid and movement controls
 Displaying the grid function and handling signals, functionality for moving around the grid with keyboard and connections (2 hours)
+
+### 2024-01-19 - Final touches
+Moved files around, changed general structure, made sure everything works, added potions, inventory features, enhanced monster and descriptions (3.5 hours)

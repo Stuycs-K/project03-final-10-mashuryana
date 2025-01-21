@@ -39,3 +39,6 @@ Displaying the grid function and handling signals, functionality for moving arou
 
 ### 2024-01-19 - Final touches
 Moved files around, changed general structure, made sure everything works, added potions, inventory features, enhanced monster and descriptions (3.5 hours)
+
+### 2024-01-21 - Video Presentation
+Recorded the video presentation, checked over code and functionality, made sure all requirements are present (30 mins)

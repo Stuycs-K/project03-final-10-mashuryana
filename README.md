@@ -37,8 +37,13 @@ This is a simple, networked, grid-based game. Players can navigate a grid, colle
 To compile the game, run:
 
 make server
+
 make client
+
 ./server
+
 ./client (x2 for two players)
+
 You can run two clients on the same machine or on different machines if they are on the same network. If running on different machines, you might need to change the IP address in client.c from "127.0.0.1" (localhost) to the server's IP address.
+
 

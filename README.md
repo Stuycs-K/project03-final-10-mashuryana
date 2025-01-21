@@ -46,4 +46,9 @@ make client
 
 You can run two clients on the same machine or on different machines if they are on the same network. If running on different machines, you might need to change the IP address in client.c from "127.0.0.1" (localhost) to the server's IP address.
 
+## Presentation
+
+https://drive.google.com/file/d/1qeVsl7J9E5Qx6ZA0AQ83PTiGqDfwLgQr/view
+
+
 

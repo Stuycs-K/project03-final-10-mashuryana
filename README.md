@@ -36,6 +36,8 @@ This is a simple, networked, grid-based game. Players can navigate a grid, colle
 
 To compile the game, run:
 
+make clean
+
 make server
 
 make client

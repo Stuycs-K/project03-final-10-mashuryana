@@ -13,13 +13,13 @@ Players will be displayed a grid and will be able to navigate the grid using key
   
 # Technical Details:
 
-Monsters will be handled by child processes. Their behavior will consist of .......
+Monsters will be handled by child processes. 
 
 The grid display will be stored in shared memory; locations of traps, treasures, and monsters will be randomized at the beginning only then saved throughout the duration of the game. 
 
 Signals will detect when a treasure is accessed, a player connects/disconnects a "server," a trap is set off.
 
-Sockets (for connection between different machines) will allow players to join the same "server." Max of 2 players in one "server"?
+Sockets (for connection between different machines) will allow players to join the same "server." Max of 2 players in one "server."
 
 Each unit/room's supply of treasure will be handled by semaphores to allow each player access at a time and with real-time inventory increases/decreases.
 
